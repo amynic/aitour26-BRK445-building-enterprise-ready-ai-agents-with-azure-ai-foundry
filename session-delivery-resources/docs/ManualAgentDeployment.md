@@ -314,7 +314,7 @@ Once you have all Agent IDs, configure the main Aspire demo application to use t
 
 1. Navigate to the `src/ZavaAppHost` directory in the repository
 2. Update the `appsettings.json` or user secrets with your Agent IDs
-3. Follow the instructions in [HowToRunDemoLocally.md](./HowToRunDemoLocally.md) to complete the configuration
+3. Follow the instructions in [03.HowToRunDemoLocally.md](./03.HowToRunDemoLocally.md) to complete the configuration
 
 Refer to [02.NeededCloudResources.md](./02.NeededCloudResources.md) for the complete setup including Application Insights and other Azure resources.
 
@@ -386,6 +386,6 @@ After completing manual agent deployment:
 1. Verify all agents appear in your AI Foundry project's Agents section
 2. Test each agent with sample prompts to ensure knowledge retrieval works correctly
 3. Configure the Aspire demo application with your Agent IDs
-4. Follow [HowToRunDemoLocally.md](./HowToRunDemoLocally.md) to run the complete demo solution
+4. Follow [03.HowToRunDemoLocally.md](./03.HowToRunDemoLocally.md) to run the complete demo solution
 
 For automated deployment, see [02.NeededCloudResources.md](./02.NeededCloudResources.md) section 4 for console application instructions.

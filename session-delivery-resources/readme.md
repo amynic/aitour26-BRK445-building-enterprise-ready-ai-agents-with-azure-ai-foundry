@@ -17,7 +17,7 @@ Prior to delivering the workshop please:
 | Demo source code | [`/src` demo source](../src) | Internal | Demo source code used in the live demos |
 | Prerequisites | [`Prerequisites`](./docs/Prerequisites.md) | Internal | Tooling and access required to run the demos |
 | Cloud Resources | [`Needed Cloud Resources`](./docs/02.NeededCloudResources.md) | Internal | Cloud resources required to run the demos |
-| How to run demo locally | [`HowToRunDemoLocally`](./docs/HowToRunDemoLocally.md) | Internal | Step-by-step instructions to build and run the demo locally |
+| How to run demo locally | [`03.HowToRunDemoLocally`](./docs/03.HowToRunDemoLocally.md) | Internal | Step-by-step instructions to build and run the demo locally |
 | How to setup demo environment using CodeSpaces | [SetupCodespaces](https://aka.ms/AAyd4kq) | External | Step-by-step instructions to run the demo using codespaces |
 
 ## 🚀Get Started
@@ -49,7 +49,7 @@ Pre-session checklist (30–60 minutes before)
 - [ ] Clone the repository (or pull latest if already cloned)
 - [ ] Install prerequisites — follow `session-delivery-resources/docs/Prerequisites.md`
 - [ ] Deploy required cloud resources (see `session-delivery-resources/docs/02.NeededCloudResources.md`) or confirm they already exist
-- [ ] Follow the instructions in `session-delivery-resources/docs/HowToRunDemoLocally.md` to run the demo locally and verify health endpoints
+- [ ] Follow the instructions in `session-delivery-resources/docs/03.HowToRunDemoLocally.md` to run the demo locally and verify health endpoints
 
 Fallback & recording guidance
 
