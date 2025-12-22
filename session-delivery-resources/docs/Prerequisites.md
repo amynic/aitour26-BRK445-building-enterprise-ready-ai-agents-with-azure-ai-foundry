@@ -4,7 +4,7 @@ This file lists the minimum tooling and access required to run the aspiredemo (Z
 
 ## Required tooling
 
-- .NET SDK 9.x (verify with `dotnet --info` or `dotnet --list-sdks`) — [Download .NET](https://dotnet.microsoft.com/en-us/download)
+- .NET SDK 10.x (verify with `dotnet --info` or `dotnet --list-sdks`) — [Download .NET](https://dotnet.microsoft.com/en-us/download)
 - Visual Studio 2022 (recommended 17.14.13+) or Visual Studio Code with C#/.NET extensions
 - Docker Desktop (required only for containerized runs)
 - Git
@@ -23,4 +23,4 @@ This file lists the minimum tooling and access required to run the aspiredemo (Z
 See also:
 
 - `./02.NeededCloudResources.md` — instructions to create the Microsoft Foundry project, models and agents used by the demos.
-- `./HowToRunDemoLocally.md` — step-by-step instructions to build and run the demo locally.
+- `./03.HowToRunDemoLocally.md` — step-by-step instructions to build and run the demo locally.

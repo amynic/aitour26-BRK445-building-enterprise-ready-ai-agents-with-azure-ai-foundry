@@ -24,11 +24,11 @@ The BRK445 solution supports two deployment models:
 
 #### Required Software
 
-1. **.NET 9 SDK**
-   ```bash
-   # Download from: https://dotnet.microsoft.com/download/dotnet/9.0
-   dotnet --version  # Should show 9.0 or higher
-   ```
+1. **.NET 10 SDK**
+  ```bash
+  # Download from: https://dotnet.microsoft.com/download/dotnet/10.0
+  dotnet --version  # Should show 10.0 or higher
+  ```
 
 2. **.NET Aspire Workload**
    ```bash

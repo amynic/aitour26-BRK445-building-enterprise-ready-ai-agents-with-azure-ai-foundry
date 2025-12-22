@@ -31,7 +31,7 @@ Developers, architects, and AI engineers who build production-grade agentic appl
 
 ## What's in this repository
 
-- `src/` — Example source code used by the demos (C#, .NET 9).  
+- `src/` — Example source code used by the demos (C#, .NET 10).  
 - `session-delivery-resources/` — slides, demos, and presenter notes
 
 ## 💻 Development Setup
@@ -40,7 +40,7 @@ Developers, architects, and AI engineers who build production-grade agentic appl
 
 The devcontainer is configured to:
 
-- ✅ Install .NET 9 SDK and Aspire workloads
+- ✅ Install .NET 10 SDK and Aspire workloads
 - ✅ Install Aspire CLI tool
 
 #### Troubleshooting (Windows + WSL + Docker Desktop)
@@ -66,24 +66,17 @@ After applying the fix, you can verify the mount service exists by running in a 
 
 ## Technologies used
 
-- C# / .NET 9 / .NET Aspire for orchestration
+- C# / .NET 10 / .NET Aspire for orchestration
 - Microsoft Foundry / Microsoft Foundry Agents
 - Docker
 
-### Agent Frameworks
+### Agent Frameworks and Working modes
 
-This solution demonstrates integration with two agent frameworks:
+This solution demonstrates multiple working modes and agent integration patterns. The available working modes are implemented in `src/ZavaWorkingModes/WorkingMode.cs` and include direct HTTP calls, LLM direct call, Microsoft Agent Framework (MAF) with Microsoft Foundry, AI Foundry variants, and local agent modes.
 
-1. **Semantic Kernel (SK)** - Microsoft.SemanticKernel - Default implementation
-2. **Microsoft Agent Framework (AgentFx)** - Microsoft.Agents.AI - Alternative implementation
+The recommended developer flow uses the Aspire AppHost and the solution `src/BRK445-Zava-Aspire.slnx`. Use the Store frontend Settings page to switch working modes; selections are saved to browser `localStorage` and take effect immediately.
 
-Both frameworks can connect to the same Microsoft Foundry agents. You can switch between them using the **Settings page** in the Store frontend application:
-
-1. Navigate to **Settings** in the Store app
-2. Use the toggle switch to select your preferred framework
-3. Your selection is saved automatically and takes effect immediately
-
-See [`src/readme.md`](./src/readme.md) for more details on the framework architecture.
+See `src/readme.md` for details on controller routes and how the Store routes requests according to working mode.
 
 ## 🔗 Session Resources
 

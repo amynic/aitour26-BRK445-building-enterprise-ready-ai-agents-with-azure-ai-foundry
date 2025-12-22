@@ -17,7 +17,7 @@ This document provides detailed descriptions of all components in the BRK445 sol
 
 #### Store (Blazor Frontend)
 
-**Technology**: Blazor Server (.NET 9)
+**Technology**: Blazor Server (.NET 10)
 
 **Location**: `src/Store/`
 
@@ -90,7 +90,7 @@ graph TB
 
 #### SingleAgentDemo
 
-**Technology**: ASP.NET Core Web API (.NET 9)
+**Technology**: ASP.NET Core Web API (.NET 10)
 
 **Location**: `src/SingleAgentDemo/`
 
@@ -136,7 +136,7 @@ builder.Services.AddHttpClient<ToolReasoningService>(
 
 #### MultiAgentDemo
 
-**Technology**: ASP.NET Core Web API (.NET 9)
+**Technology**: ASP.NET Core Web API (.NET 10)
 
 **Location**: `src/MultiAgentDemo/`
 
@@ -412,7 +412,7 @@ public record NavigationStep(
 
 #### DataService
 
-**Technology**: ASP.NET Core Web API + Entity Framework Core (.NET 9)
+**Technology**: ASP.NET Core Web API + Entity Framework Core (.NET 10)
 
 **Location**: `src/DataService/`
 
