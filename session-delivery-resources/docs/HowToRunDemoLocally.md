@@ -108,7 +108,7 @@ Replace `<your-tenant-url>` with your Azure tenant domain (e.g., `yourcompany.on
 
 ### Build Errors - File Permission Issues
 
-**Error**: `error MSB3374: The last access/last write time on file "obj/Debug/net9.0/*.cache" cannot be set. Access to the path '...' is denied.`
+**Error**: `error MSB3374: The last access/last write time on file "obj/Debug/net10.0/*.cache" cannot be set. Access to the path '...' is denied.`
 
 This error commonly occurs in dev containers or when switching between different development environments.
 
