@@ -187,7 +187,7 @@ public static class MAFFoundryAgentExtensions
         logger?.LogInformation("Registering MAF Foundry agents from endpoint: {Endpoint}", projectEndpoint);
 
         var credentialOptions = new DefaultAzureCredentialOptions();
-        if (!string.IsNullOrEmpty(tenantId))
+        if (!string.IsNullOrEmpty(tenantId) && tenantId.Length > 5)
         {
             credentialOptions = new DefaultAzureCredentialOptions()
             { TenantId = tenantId };
